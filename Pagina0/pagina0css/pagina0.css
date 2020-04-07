@@ -1,0 +1,47 @@
+body{
+    background-color:brown;
+}
+h1{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: darkgray;
+    color: blue;
+}
+/*Imagem do leão*/
+#leao{
+    position: absolute;
+    top: 4px;
+    width: 80px;
+    left: 1200px;
+}
+/*Imagem GITHUB*/
+#github{
+    position: relative;
+    width: 150px;
+    height: 80px;
+    right: 2px;
+}
+/*imagem Samuel*/
+#samuel{
+    width: 60px;
+    height: 60px;
+}
+#menu{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    background-color: black;
+    left: 1100px;
+    block-size: 0px;
+}
+hgroup #inicio{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+    position: absolute;
+    text-align: center;
+}
