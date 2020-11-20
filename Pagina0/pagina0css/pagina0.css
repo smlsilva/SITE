@@ -1,47 +1,106 @@
-body{
-    background-color:brown;
+/* HEADER */
+/*MENU COMPLETO*/
+.menu ul{
+    top: -10px;
+    font-size: 25px;
+    position: fixed;
+    right: 5px;
 }
-h1{
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 50px;
-    background-color: darkgray;
-    color: blue;
-}
-/*Imagem do leão*/
-#leao{
-    position: absolute;
-    top: 4px;
-    width: 80px;
-    left: 1200px;
-}
-/*Imagem GITHUB*/
-#github{
-    position: relative;
-    width: 150px;
-    height: 80px;
-    right: 2px;
-}
-/*imagem Samuel*/
-#samuel{
-    width: 60px;
-    height: 60px;
-}
-#menu{
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 80px;
+
+.menu ul li{
+    display: inline-grid;
+    padding: 5px;
     background-color: black;
-    left: 1100px;
-    block-size: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-right: 20px;
 }
-hgroup #inicio{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-top: 60px;
-    position: absolute;
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*PRINCIPAL*/
+.principal{
     text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
+.principal figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 35px;
+}
+
+.principal figure figcaption{
+    font-size: 40px;
+}
+
+.principal h1{
+    background-image: url(imagensCSS/coding-language.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    color: white;
+}
+
+.principal table tr, th{
+    border: 2px solid yellow;
+    padding-left: 150px;
+    padding-right: 159px;
+    margin: -50px;
+    background-color: black;
+    color: white;
+}
+
+.principal table th a{
+    text-decoration: none;
+    color: white;
+}
+
+.principal h2{
+    background-image: url(imagensCSS/livros.jpg);
+    color: white;
+    margin-left: 5px;
+    margin-right: -2px;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal p{
+    background-color: white;
+    color: black;
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+/*roda-pe*/
+.roda-pe p{
+    background-image: url(imagensCSS/midias_sociais.png);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    color: white;
+}
+
+.github{
+    width: 300px;
+    height: 200px;
+    margin-top: -10px;
+    margin-left: 400px;
+}
+.linkedin{
+    width: 300px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: -500px;
+}
+
+
