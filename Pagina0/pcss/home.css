@@ -90,17 +90,15 @@
     color: white;
 }
 
+.roda-pe figure{
+    display: inline-block;
+}
 .github{
     width: 300px;
     height: 200px;
-    margin-top: -10px;
-    margin-left: 400px;
 }
 .linkedin{
     width: 300px;
     height: 200px;
-    margin-left: 550px;
-    margin-top: -500px;
 }
-
 
