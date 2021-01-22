@@ -1,26 +1,4 @@
 /* HEADER */
-/*MENU COMPLETO*/
-.menu ul{
-    top: -10px;
-    font-size: 25px;
-    position: fixed;
-    right: 5px;
-}
-
-.menu ul li{
-    display: inline-grid;
-    padding: 5px;
-    background-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    margin-right: 20px;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    color: white;
-}
 
 /*PRINCIPAL*/
 .principal{
@@ -33,72 +11,28 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin-top: 35px;
 }
 
 .principal figure figcaption{
     font-size: 40px;
+    margin-bottom: -30px;
 }
 
-.principal h1{
-    background-image: url(imagensCSS/coding-language.jpg);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    padding: 20px;
-    color: white;
-}
-
-.principal table tr, th{
-    border: 2px solid yellow;
-    padding-left: 150px;
-    padding-right: 159px;
-    margin: -50px;
+.my li{
+    display: inline-grid;
+    border: black solid 3px;
     background-color: black;
-    color: white;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
-.principal table th a{
+.my li a{
     text-decoration: none;
     color: white;
 }
 
-.principal h2{
-    background-image: url(imagensCSS/livros.jpg);
-    color: white;
-    margin-left: 5px;
-    margin-right: -2px;
-    margin-top: 100px;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.principal p{
-    background-color: white;
-    color: black;
-    margin-top: -60px;
-    font-size: 30px;
-}
-
 /*roda-pe*/
-.roda-pe p{
-    background-image: url(imagensCSS/midias_sociais.png);
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 100px;
-    color: white;
-}
-
-.roda-pe figure{
-    display: inline-block;
-}
-.github{
-    width: 300px;
-    height: 200px;
-}
-.linkedin{
-    width: 300px;
-    height: 200px;
-}
 
