@@ -1,13 +1,7 @@
-# SITE
+# 🔖 FERRAMENTAS
 
--Objetivo é aprender, e construir o meu SITE!
-
-# FERRAMENTAS
-
-- HTML (Linguagem de Marcação)
-- CSS  (Arquivo de Estilo)
-- JavaScript (Linguagem para Interatividade)
-- Entre outras (IREI ATUALIZANDO CONFORME APRENDO)
-
-# COMEÇO 2020
-# TÉRMINO INDETERMINADO
+<ul>
+  <li>HTML5</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+ </ul>
