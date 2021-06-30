@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.cabecalho {
+    text-align: center;
+    margin-top: 0;
+    box-sizing: border-box;
+    background-color: #bdf;
+}
+
+.cabecalho picture img {
+    border-radius: 200px;
+}
+
+.menu {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #7de;
+}
+
+.menu a {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.menu a img {
+    width: 10%;
+    height: 10%;
+}
+
+.conteudo {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    height: 100%;
+    background-color: #013C8F;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.conteudo div img {
+    display: inline-block;
+    padding: 10px;
+    margin: 50px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+        .menu a {
+            display: block;
+        }
+
+        .conteudo div p {
+            display: block;
+        }
+
+}
+
+h1, h2, h3 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.zoom {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transform: all 0.1s;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;   
+}
+
+.zoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px){
+        .zoom:hover {
+            overflow: hidden;
+            transform: scale(1.1);
+        }    
+}
