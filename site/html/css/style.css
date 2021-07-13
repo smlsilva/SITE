@@ -1,17 +1,17 @@
 * {
     margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
-    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cabecalho {
-    text-align: center;
+    padding: 10px 0px;
     margin-top: 0;
-    box-sizing: border-box;
-    background-color: #bbddff;
 }
 
 .cabecalho picture img {
@@ -19,22 +19,29 @@ body {
 }
 
 .menu {
-    padding-top: 10px;
+    padding: 10px 0px;
     text-align: center;
     width: 100%;
-    box-sizing: border-box;
-    background-color: #7de;
+    background-color: black;
 }
 
 .menu a {
-    display: inline;
-    padding: 20px;
-    font-size: 20px;
+    padding: 50px;
 }
 
 .menu a img {
     width: 10%;
     height: 10%;
+}
+
+.linkedin:hover {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.github:hover {
+    border-radius: 150px;
+    box-shadow: white 2px 1px 1px 1px;
 }
 
 .conteudo {
@@ -62,6 +69,7 @@ body {
 @media only screen and (max-width: 700px) {
         .menu a {
             display: block;
+            padding: 20px;
         }
 
         .menu a img {
@@ -75,7 +83,14 @@ body {
 
 }
 
-h1, h2, h3 {
+h2, h3, h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+h1 {
+    padding: 10px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
