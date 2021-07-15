@@ -6,8 +6,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    """flex-direction: column;"""
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 .cabecalho {
